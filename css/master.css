@@ -1,0 +1,71 @@
+body
+{
+    font-family: 'Open Sans', sans-serif;
+
+    text-align: center;
+
+    color: #ffe600;
+    background: black url(../img/stars.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.title
+{
+    font-size: 1.4em;
+    font-weight: 600;
+
+    text-transform: uppercase;
+}
+
+.movie p
+{
+    line-height: 1.6em;
+
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.movie
+{
+    letter-spacing: .1em;
+}
+
+.button
+{
+    display: inline-block;
+
+    box-sizing: border-box;
+    margin: 0 1%;
+    padding: 5px;
+
+    text-transform: uppercase;
+
+    color: #ffe600;
+    border: 1px solid #ffe600;
+    background-color: black;
+}
+
+.button:hover
+{
+    font-weight: 700;
+
+    cursor: pointer;
+
+    color: #0cf;
+    border: 1px solid #0cf;
+}
+
+.movie > div
+{
+    vertical-align: bottom;
+}
+
+#info-title
+{
+    text-transform: uppercase;
+}
+
+#info-box
+{
+    color: #0cf;
+}
